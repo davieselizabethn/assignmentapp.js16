@@ -1,0 +1,36 @@
+main {
+    width: 50%;
+    border: gray 1px solid;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+main > *:not(:last-child){
+    margin-bottom: 10px;
+}
+
+#elements {
+    border: gray 1px solid;
+    padding: 10px;
+    min-height: 50px;
+}
+
+#elements > *:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.element {
+    border: gray 1px solid;
+    padding: 10px;
+}
+
+.element h3 {
+    background-color: lightpink;
+}
+
+.element h4 {
+    background-color: lightblue;
+}
